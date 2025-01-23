@@ -16,7 +16,7 @@ public class Teleporter : MonoBehaviour
         action.action.performed += (ctx) =>
         {
             current++;
-            if(current > nodes.Count){
+            if(current >= nodes.Count){
                 current = 0;
             }
 
