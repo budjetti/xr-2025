@@ -689,8 +689,9 @@ GameObject:
   - component: {fileID: 217052871}
   - component: {fileID: 217052870}
   - component: {fileID: 217052869}
+  - component: {fileID: 217052873}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Planet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -783,6 +784,19 @@ Transform:
   - {fileID: 1710312110}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &217052873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217052868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8ea407d0d3ed3438bc9442c3b0659f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
 --- !u!1 &228149609
 GameObject:
   m_ObjectHideFlags: 0
@@ -1900,7 +1914,7 @@ GameObject:
   - component: {fileID: 1710312112}
   - component: {fileID: 1710312111}
   m_Layer: 0
-  m_Name: Sphere (1)
+  m_Name: Moon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
