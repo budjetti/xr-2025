@@ -1350,6 +1350,7 @@ GameObject:
   - component: {fileID: 1195306051}
   - component: {fileID: 1195306050}
   - component: {fileID: 1195306049}
+  - component: {fileID: 1195306052}
   m_Layer: 0
   m_Name: Point Light
   m_TagString: Untagged
@@ -1457,6 +1458,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1195306052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195306048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3a183d70c4ba6c4c946d6cb27fdb0ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  light: {fileID: 1195306050}
 --- !u!1001 &1197759641
 PrefabInstance:
   m_ObjectHideFlags: 0
