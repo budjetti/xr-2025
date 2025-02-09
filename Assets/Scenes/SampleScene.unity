@@ -3125,6 +3125,16 @@ PrefabInstance:
       propertyPath: playerCamera
       value: 
       objectReference: {fileID: 546638869}
+    - target: {fileID: 2692941698835225482, guid: 9d25fd5d75a7fd54cafca24a00c711cf,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a36c81aa4071cf40a724c40a2775dc4, type: 2}
+    - target: {fileID: 2692941698835225482, guid: 9d25fd5d75a7fd54cafca24a00c711cf,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a36c81aa4071cf40a724c40a2775dc4, type: 2}
     - target: {fileID: 4389298153798997369, guid: 9d25fd5d75a7fd54cafca24a00c711cf,
         type: 3}
       propertyPath: playerCamera
